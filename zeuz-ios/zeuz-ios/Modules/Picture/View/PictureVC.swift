@@ -5,7 +5,7 @@
 //  Created by Jesus Alejandro Pablo Ojeda on 03/06/22.
 //
 import UIKit
-final class PictureVC: UIViewController {
+final class PictureVC: BaseViewController {
     @IBOutlet fileprivate weak var ivPicture: UIImageView!
     private var imagePicker: ImagePickerHelper?
     var presenter: PicturePresenterProtocol?
@@ -13,6 +13,7 @@ final class PictureVC: UIViewController {
         super.viewDidLoad()
         self.imagePicker = ImagePickerHelper(presentationController: self, delegate: self)
         self.ivPicture.roundCorner(radius: 20)
+        self.navigationItem.title = "Fotografía"
     }
     @IBAction func btnTakePicturePressed(_ sender: UIButton) {
         self.imagePicker?.present(from: sender)

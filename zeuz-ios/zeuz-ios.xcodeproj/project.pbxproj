@@ -25,6 +25,15 @@
 		A97002B7284AB3DE0035F868 /* GraphicsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002B6284AB3DE0035F868 /* GraphicsInteractor.swift */; };
 		A97002B9284AB8D20035F868 /* GraphicsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002B8284AB8D20035F868 /* GraphicsPresenter.swift */; };
 		A97002BB284AB8E10035F868 /* GraphicsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002BA284AB8E10035F868 /* GraphicsRouter.swift */; };
+		A97002C3284ABF070035F868 /* ChartDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97002BE284ABF070035F868 /* ChartDetailView.xib */; };
+		A97002C4284ABF070035F868 /* RowViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002C0284ABF070035F868 /* RowViewCell.swift */; };
+		A97002C5284ABF070035F868 /* RowViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97002C1284ABF070035F868 /* RowViewCell.xib */; };
+		A97002C6284ABF070035F868 /* ChartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002C2284ABF070035F868 /* ChartDetailView.swift */; };
+		A97002CC284AC1080035F868 /* PieCharViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002CA284AC1080035F868 /* PieCharViewCell.swift */; };
+		A97002CD284AC1080035F868 /* PieCharViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97002CB284AC1080035F868 /* PieCharViewCell.xib */; };
+		A97002CF284AC4220035F868 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002CE284AC4220035F868 /* UIColorExtension.swift */; };
+		A9B7E773284AC9EC009C7A16 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7E772284AC9EC009C7A16 /* BaseViewController.swift */; };
+		A9B7E775284ACA6D009C7A16 /* ToastEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7E774284ACA6D009C7A16 /* ToastEnum.swift */; };
 		A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF483284A68EB001A5881 /* AppDelegate.swift */; };
 		A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48C284A68EE001A5881 /* Assets.xcassets */; };
 		A9FFF490284A68EE001A5881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */; };
@@ -92,6 +101,15 @@
 		A97002B6284AB3DE0035F868 /* GraphicsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsInteractor.swift; sourceTree = "<group>"; };
 		A97002B8284AB8D20035F868 /* GraphicsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsPresenter.swift; sourceTree = "<group>"; };
 		A97002BA284AB8E10035F868 /* GraphicsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsRouter.swift; sourceTree = "<group>"; };
+		A97002BE284ABF070035F868 /* ChartDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartDetailView.xib; sourceTree = "<group>"; };
+		A97002C0284ABF070035F868 /* RowViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowViewCell.swift; sourceTree = "<group>"; };
+		A97002C1284ABF070035F868 /* RowViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowViewCell.xib; sourceTree = "<group>"; };
+		A97002C2284ABF070035F868 /* ChartDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
+		A97002CA284AC1080035F868 /* PieCharViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieCharViewCell.swift; sourceTree = "<group>"; };
+		A97002CB284AC1080035F868 /* PieCharViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PieCharViewCell.xib; sourceTree = "<group>"; };
+		A97002CE284AC4220035F868 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		A9B7E772284AC9EC009C7A16 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A9B7E774284ACA6D009C7A16 /* ToastEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastEnum.swift; sourceTree = "<group>"; };
 		A9FFF480284A68EB001A5881 /* zeuz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeuz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFF483284A68EB001A5881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9FFF48C284A68EE001A5881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -189,6 +207,7 @@
 		A97002A1284AA9C20035F868 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A97002C7284AC0B70035F868 /* Cells */,
 				A97002A2284AA9D90035F868 /* GraphicsVC.swift */,
 				A97002A3284AA9D90035F868 /* GraphicsVC.xib */,
 			);
@@ -251,6 +270,43 @@
 			path = Branches;
 			sourceTree = "<group>";
 		};
+		A97002BD284ABF070035F868 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				A97002C2284ABF070035F868 /* ChartDetailView.swift */,
+				A97002BE284ABF070035F868 /* ChartDetailView.xib */,
+				A97002BF284ABF070035F868 /* Row */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		A97002BF284ABF070035F868 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				A97002C0284ABF070035F868 /* RowViewCell.swift */,
+				A97002C1284ABF070035F868 /* RowViewCell.xib */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
+		A97002C7284AC0B70035F868 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A97002CA284AC1080035F868 /* PieCharViewCell.swift */,
+				A97002CB284AC1080035F868 /* PieCharViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A97002D2284AC9710035F868 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7E772284AC9EC009C7A16 /* BaseViewController.swift */,
+				A9B7E774284ACA6D009C7A16 /* ToastEnum.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		A9FFF477284A68EB001A5881 = {
 			isa = PBXGroup;
 			children = (
@@ -278,11 +334,11 @@
 			children = (
 				A9700291284AA49D0035F868 /* Data */,
 				A9FFF4B3284A69A8001A5881 /* Modules */,
+				A9FFF4D3284A824B001A5881 /* Util */,
 				A9FFF483284A68EB001A5881 /* AppDelegate.swift */,
 				A9FFF48C284A68EE001A5881 /* Assets.xcassets */,
 				A9FFF491284A68EE001A5881 /* Info.plist */,
 				A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */,
-				A9FFF4D3284A824B001A5881 /* Util */,
 				A970029F284AA8D50035F868 /* Localizable.strings */,
 			);
 			path = "zeuz-ios";
@@ -309,6 +365,7 @@
 		A9FFF4B3284A69A8001A5881 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A97002D2284AC9710035F868 /* Base */,
 				A9FFF4F5284AA187001A5881 /* Graficas */,
 				A9FFF4E0284A9A8A001A5881 /* Picture */,
 				A9FFF4B4284A69AE001A5881 /* Table */,
@@ -393,6 +450,7 @@
 		A9FFF4D3284A824B001A5881 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A97002BD284ABF070035F868 /* PieChart */,
 				A9FFF4E7284A9B67001A5881 /* ImagePicker */,
 				A9FFF4DD284A8F73001A5881 /* extension */,
 				A970029D284AA8320035F868 /* Logger.swift */,
@@ -406,6 +464,7 @@
 				A9FFF4DE284A8F9B001A5881 /* StringExtensions.swift */,
 				A9FFF4EC284A9E59001A5881 /* ImageViewExtensions.swift */,
 				A970029B284AA7B00035F868 /* ClassExtenssions.swift */,
+				A97002CE284AC4220035F868 /* UIColorExtension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -598,11 +657,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FFF490284A68EE001A5881 /* LaunchScreen.storyboard in Resources */,
+				A97002C3284ABF070035F868 /* ChartDetailView.xib in Resources */,
 				A97002A5284AA9D90035F868 /* GraphicsVC.xib in Resources */,
 				A9FFF4B8284A69BF001A5881 /* ZTableVC.xib in Resources */,
 				A9FFF4C4284A70A3001A5881 /* InputCell.xib in Resources */,
 				A97002A0284AA8D50035F868 /* Localizable.strings in Resources */,
 				A9FFF4E5284A9AE7001A5881 /* PictureVC.xib in Resources */,
+				A97002C5284ABF070035F868 /* RowViewCell.xib in Resources */,
+				A97002CD284AC1080035F868 /* PieCharViewCell.xib in Resources */,
 				A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */,
 				A9FFF4C8284A72B9001A5881 /* TextCell.xib in Resources */,
 			);
@@ -737,23 +799,29 @@
 				A9FFF4B7284A69BF001A5881 /* ZTableVC.swift in Sources */,
 				A9700296284AA5EE0035F868 /* ManagerService.swift in Sources */,
 				A9FFF4CB284A7564001A5881 /* ZTableProtocols.swift in Sources */,
+				A9B7E773284AC9EC009C7A16 /* BaseViewController.swift in Sources */,
 				A97002BB284AB8E10035F868 /* GraphicsRouter.swift in Sources */,
 				A97002B5284AAFF60035F868 /* BranchesFacade.swift in Sources */,
 				A9FFF4ED284A9E59001A5881 /* ImageViewExtensions.swift in Sources */,
 				A9FFF4CF284A7AE3001A5881 /* ZTablePresenter.swift in Sources */,
 				A9700298284AA61D0035F868 /* BaseFacade.swift in Sources */,
 				A9700294284AA5D50035F868 /* RequestSettings.swift in Sources */,
+				A97002CC284AC1080035F868 /* PieCharViewCell.swift in Sources */,
 				A970029E284AA8320035F868 /* Logger.swift in Sources */,
+				A9B7E775284ACA6D009C7A16 /* ToastEnum.swift in Sources */,
 				A97002B3284AAC260035F868 /* BranchesEntity.swift in Sources */,
 				A970029C284AA7B00035F868 /* ClassExtenssions.swift in Sources */,
 				A9FFF4C7284A72B9001A5881 /* TextCell.swift in Sources */,
 				A97002A4284AA9D90035F868 /* GraphicsVC.swift in Sources */,
+				A97002CF284AC4220035F868 /* UIColorExtension.swift in Sources */,
+				A97002C6284ABF070035F868 /* ChartDetailView.swift in Sources */,
 				A9FFF4CD284A795A001A5881 /* ZTableRouter.swift in Sources */,
 				A9FFF4EF284A9ED4001A5881 /* PictureProtocols.swift in Sources */,
 				A970029A284AA6A40035F868 /* ServiceEntity.swift in Sources */,
 				A97002AF284AAB2A0035F868 /* EndPoints.swift in Sources */,
 				A97002AD284AAA4A0035F868 /* GraphicsProtocols.swift in Sources */,
 				A9FFF4E9284A9B78001A5881 /* ImagePickerHelper.swift in Sources */,
+				A97002C4284ABF070035F868 /* RowViewCell.swift in Sources */,
 				A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */,
 				A97002B9284AB8D20035F868 /* GraphicsPresenter.swift in Sources */,
 				A9FFF4F4284A9FA1001A5881 /* PictureRouter.swift in Sources */,

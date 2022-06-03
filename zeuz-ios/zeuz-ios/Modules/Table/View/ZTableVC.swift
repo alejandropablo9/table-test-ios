@@ -5,7 +5,7 @@
 //  Created by Jesus Alejandro Pablo Ojeda on 03/06/22.
 //
 import UIKit
-final class ZTableVC: UIViewController {
+final class ZTableVC: BaseViewController {
     @IBOutlet fileprivate weak var tableView: UITableView!
     private var cells: [ZTableCellEntity] = []
     var presenter: ZTablePresenterProtocol?
@@ -13,6 +13,7 @@ final class ZTableVC: UIViewController {
         super.viewDidLoad()
         self.setupTableView()
         self.presenter?.requestCell()
+        self.navigationItem.title = "Tabla"
     }
     private func setupTableView() {
         tableView.delegate = self

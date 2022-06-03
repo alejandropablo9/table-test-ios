@@ -32,4 +32,8 @@ extension InputCell: UITextFieldDelegate {
         }
         return true
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.endEditing(true)
+        return true
+    }
 }

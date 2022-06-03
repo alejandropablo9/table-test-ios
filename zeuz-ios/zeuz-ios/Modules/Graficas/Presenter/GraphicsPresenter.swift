@@ -18,10 +18,10 @@ extension GraphicsPresenter: GraphicsPresenterProtocol {
 extension GraphicsPresenter: GraphicsOutputInteractorProtocol {
     func showDataBranches(data: [Branches]) {
         view?.showDataBranches(data: data)
-        view?.hideShowHU()
+        view?.hideHUD()
     }
     func requestFailure(message: String) {
-        view?.hideShowHU()
+        view?.hideHUD()
         view?.requestFailure(message: message)
     }
 }

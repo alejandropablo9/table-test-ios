@@ -9,7 +9,7 @@ protocol GraphicsViewProtocol {
     /// Muestra el loading
     func showHUD()
     /// Oculta el loadin
-    func hideShowHU()
+    func hideHUD()
     /// Muestra la información de las sucursales
     func showDataBranches(data: [Branches])
     /// Función que indica que hubo un error
