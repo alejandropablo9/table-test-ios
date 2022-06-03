@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF483284A68EB001A5881 /* AppDelegate.swift */; };
+		A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48C284A68EE001A5881 /* Assets.xcassets */; };
+		A9FFF490284A68EE001A5881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */; };
+		A9FFF49B284A68EE001A5881 /* zeuz_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF49A284A68EE001A5881 /* zeuz_iosTests.swift */; };
+		A9FFF4A5284A68EE001A5881 /* zeuz_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4A4284A68EE001A5881 /* zeuz_iosUITests.swift */; };
+		A9FFF4A7284A68EE001A5881 /* zeuz_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4A6284A68EE001A5881 /* zeuz_iosUITestsLaunchTests.swift */; };
+		A9FFF4B7284A69BF001A5881 /* ZTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4B5284A69BF001A5881 /* ZTableVC.swift */; };
+		A9FFF4B8284A69BF001A5881 /* ZTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF4B6284A69BF001A5881 /* ZTableVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FFF497284A68EE001A5881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FFF478284A68EB001A5881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FFF47F284A68EB001A5881;
+			remoteInfo = "zeuz-ios";
+		};
+		A9FFF4A1284A68EE001A5881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FFF478284A68EB001A5881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FFF47F284A68EB001A5881;
+			remoteInfo = "zeuz-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9FFF480284A68EB001A5881 /* zeuz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeuz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FFF483284A68EB001A5881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9FFF48C284A68EE001A5881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9FFF48F284A68EE001A5881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9FFF491284A68EE001A5881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FFF496284A68EE001A5881 /* zeuz-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zeuz-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FFF49A284A68EE001A5881 /* zeuz_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeuz_iosTests.swift; sourceTree = "<group>"; };
+		A9FFF4A0284A68EE001A5881 /* zeuz-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zeuz-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FFF4A4284A68EE001A5881 /* zeuz_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeuz_iosUITests.swift; sourceTree = "<group>"; };
+		A9FFF4A6284A68EE001A5881 /* zeuz_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeuz_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9FFF4B5284A69BF001A5881 /* ZTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTableVC.swift; sourceTree = "<group>"; };
+		A9FFF4B6284A69BF001A5881 /* ZTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZTableVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FFF47D284A68EB001A5881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FFF493284A68EE001A5881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FFF49D284A68EE001A5881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FFF477284A68EB001A5881 = {
+			isa = PBXGroup;
+			children = (
+				A9FFF482284A68EB001A5881 /* zeuz-ios */,
+				A9FFF499284A68EE001A5881 /* zeuz-iosTests */,
+				A9FFF4A3284A68EE001A5881 /* zeuz-iosUITests */,
+				A9FFF481284A68EB001A5881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FFF481284A68EB001A5881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF480284A68EB001A5881 /* zeuz-ios.app */,
+				A9FFF496284A68EE001A5881 /* zeuz-iosTests.xctest */,
+				A9FFF4A0284A68EE001A5881 /* zeuz-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FFF482284A68EB001A5881 /* zeuz-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF4B3284A69A8001A5881 /* Modules */,
+				A9FFF483284A68EB001A5881 /* AppDelegate.swift */,
+				A9FFF48C284A68EE001A5881 /* Assets.xcassets */,
+				A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */,
+				A9FFF491284A68EE001A5881 /* Info.plist */,
+			);
+			path = "zeuz-ios";
+			sourceTree = "<group>";
+		};
+		A9FFF499284A68EE001A5881 /* zeuz-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF49A284A68EE001A5881 /* zeuz_iosTests.swift */,
+			);
+			path = "zeuz-iosTests";
+			sourceTree = "<group>";
+		};
+		A9FFF4A3284A68EE001A5881 /* zeuz-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF4A4284A68EE001A5881 /* zeuz_iosUITests.swift */,
+				A9FFF4A6284A68EE001A5881 /* zeuz_iosUITestsLaunchTests.swift */,
+			);
+			path = "zeuz-iosUITests";
+			sourceTree = "<group>";
+		};
+		A9FFF4B3284A69A8001A5881 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF4B4284A69AE001A5881 /* Table */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A9FFF4B4284A69AE001A5881 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF4B5284A69BF001A5881 /* ZTableVC.swift */,
+				A9FFF4B6284A69BF001A5881 /* ZTableVC.xib */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FFF47F284A68EB001A5881 /* zeuz-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FFF4AA284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-ios" */;
+			buildPhases = (
+				A9FFF47C284A68EB001A5881 /* Sources */,
+				A9FFF47D284A68EB001A5881 /* Frameworks */,
+				A9FFF47E284A68EB001A5881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zeuz-ios";
+			productName = "zeuz-ios";
+			productReference = A9FFF480284A68EB001A5881 /* zeuz-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FFF495284A68EE001A5881 /* zeuz-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FFF4AD284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-iosTests" */;
+			buildPhases = (
+				A9FFF492284A68EE001A5881 /* Sources */,
+				A9FFF493284A68EE001A5881 /* Frameworks */,
+				A9FFF494284A68EE001A5881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FFF498284A68EE001A5881 /* PBXTargetDependency */,
+			);
+			name = "zeuz-iosTests";
+			productName = "zeuz-iosTests";
+			productReference = A9FFF496284A68EE001A5881 /* zeuz-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9FFF49F284A68EE001A5881 /* zeuz-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FFF4B0284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-iosUITests" */;
+			buildPhases = (
+				A9FFF49C284A68EE001A5881 /* Sources */,
+				A9FFF49D284A68EE001A5881 /* Frameworks */,
+				A9FFF49E284A68EE001A5881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FFF4A2284A68EE001A5881 /* PBXTargetDependency */,
+			);
+			name = "zeuz-iosUITests";
+			productName = "zeuz-iosUITests";
+			productReference = A9FFF4A0284A68EE001A5881 /* zeuz-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FFF478284A68EB001A5881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A9FFF47F284A68EB001A5881 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A9FFF495284A68EE001A5881 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A9FFF47F284A68EB001A5881;
+					};
+					A9FFF49F284A68EE001A5881 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A9FFF47F284A68EB001A5881;
+					};
+				};
+			};
+			buildConfigurationList = A9FFF47B284A68EB001A5881 /* Build configuration list for PBXProject "zeuz-ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FFF477284A68EB001A5881;
+			productRefGroup = A9FFF481284A68EB001A5881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FFF47F284A68EB001A5881 /* zeuz-ios */,
+				A9FFF495284A68EE001A5881 /* zeuz-iosTests */,
+				A9FFF49F284A68EE001A5881 /* zeuz-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FFF47E284A68EB001A5881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FFF490284A68EE001A5881 /* LaunchScreen.storyboard in Resources */,
+				A9FFF4B8284A69BF001A5881 /* ZTableVC.xib in Resources */,
+				A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FFF494284A68EE001A5881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FFF49E284A68EE001A5881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FFF47C284A68EB001A5881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FFF4B7284A69BF001A5881 /* ZTableVC.swift in Sources */,
+				A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FFF492284A68EE001A5881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FFF49B284A68EE001A5881 /* zeuz_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FFF49C284A68EE001A5881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FFF4A7284A68EE001A5881 /* zeuz_iosUITestsLaunchTests.swift in Sources */,
+				A9FFF4A5284A68EE001A5881 /* zeuz_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FFF498284A68EE001A5881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FFF47F284A68EB001A5881 /* zeuz-ios */;
+			targetProxy = A9FFF497284A68EE001A5881 /* PBXContainerItemProxy */;
+		};
+		A9FFF4A2284A68EE001A5881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FFF47F284A68EB001A5881 /* zeuz-ios */;
+			targetProxy = A9FFF4A1284A68EE001A5881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FFF48F284A68EE001A5881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9FFF4A8284A68EE001A5881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9FFF4A9284A68EE001A5881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FFF4AB284A68EE001A5881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3CMUQRQN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zeuz-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.tejate.zeuz-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9FFF4AC284A68EE001A5881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3CMUQRQN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zeuz-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.tejate.zeuz-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9FFF4AE284A68EE001A5881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3CMUQRQN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.tejate.zeuz-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zeuz-ios.app/zeuz-ios";
+			};
+			name = Debug;
+		};
+		A9FFF4AF284A68EE001A5881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3CMUQRQN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.tejate.zeuz-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zeuz-ios.app/zeuz-ios";
+			};
+			name = Release;
+		};
+		A9FFF4B1284A68EE001A5881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3CMUQRQN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.tejate.zeuz-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zeuz-ios";
+			};
+			name = Debug;
+		};
+		A9FFF4B2284A68EE001A5881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3CMUQRQN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.tejate.zeuz-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zeuz-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FFF47B284A68EB001A5881 /* Build configuration list for PBXProject "zeuz-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FFF4A8284A68EE001A5881 /* Debug */,
+				A9FFF4A9284A68EE001A5881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FFF4AA284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FFF4AB284A68EE001A5881 /* Debug */,
+				A9FFF4AC284A68EE001A5881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FFF4AD284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FFF4AE284A68EE001A5881 /* Debug */,
+				A9FFF4AF284A68EE001A5881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FFF4B0284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FFF4B1284A68EE001A5881 /* Debug */,
+				A9FFF4B2284A68EE001A5881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FFF478284A68EB001A5881 /* Project object */;
+}
