@@ -18,12 +18,13 @@
 		A9FFF4BF284A6E9E001A5881 /* ZTableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4BE284A6E9E001A5881 /* ZTableEntity.swift */; };
 		A9FFF4C3284A70A3001A5881 /* InputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4C1284A70A3001A5881 /* InputCell.swift */; };
 		A9FFF4C4284A70A3001A5881 /* InputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF4C2284A70A3001A5881 /* InputCell.xib */; };
-		A9FFF4C7284A72B9001A5881 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4C5284A72B9001A5881 /* PhotoCell.swift */; };
-		A9FFF4C8284A72B9001A5881 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF4C6284A72B9001A5881 /* PhotoCell.xib */; };
+		A9FFF4C7284A72B9001A5881 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4C5284A72B9001A5881 /* TextCell.swift */; };
+		A9FFF4C8284A72B9001A5881 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF4C6284A72B9001A5881 /* TextCell.xib */; };
 		A9FFF4CB284A7564001A5881 /* ZTableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4CA284A7564001A5881 /* ZTableProtocols.swift */; };
 		A9FFF4CD284A795A001A5881 /* ZTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4CC284A795A001A5881 /* ZTableRouter.swift */; };
 		A9FFF4CF284A7AE3001A5881 /* ZTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4CE284A7AE3001A5881 /* ZTablePresenter.swift */; };
 		A9FFF4D1284A7AF0001A5881 /* ZTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4D0284A7AF0001A5881 /* ZTableInteractor.swift */; };
+		A9FFF4DF284A8F9B001A5881 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4DE284A8F9B001A5881 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +60,13 @@
 		A9FFF4BE284A6E9E001A5881 /* ZTableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTableEntity.swift; sourceTree = "<group>"; };
 		A9FFF4C1284A70A3001A5881 /* InputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCell.swift; sourceTree = "<group>"; };
 		A9FFF4C2284A70A3001A5881 /* InputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputCell.xib; sourceTree = "<group>"; };
-		A9FFF4C5284A72B9001A5881 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
-		A9FFF4C6284A72B9001A5881 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		A9FFF4C5284A72B9001A5881 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		A9FFF4C6284A72B9001A5881 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
 		A9FFF4CA284A7564001A5881 /* ZTableProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTableProtocols.swift; sourceTree = "<group>"; };
 		A9FFF4CC284A795A001A5881 /* ZTableRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTableRouter.swift; sourceTree = "<group>"; };
 		A9FFF4CE284A7AE3001A5881 /* ZTablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTablePresenter.swift; sourceTree = "<group>"; };
 		A9FFF4D0284A7AF0001A5881 /* ZTableInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTableInteractor.swift; sourceTree = "<group>"; };
+		A9FFF4DE284A8F9B001A5881 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +117,12 @@
 		A9FFF482284A68EB001A5881 /* zeuz-ios */ = {
 			isa = PBXGroup;
 			children = (
-				A9FFF4B3284A69A8001A5881 /* Modules */,
 				A9FFF483284A68EB001A5881 /* AppDelegate.swift */,
 				A9FFF48C284A68EE001A5881 /* Assets.xcassets */,
-				A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */,
 				A9FFF491284A68EE001A5881 /* Info.plist */,
+				A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */,
+				A9FFF4B3284A69A8001A5881 /* Modules */,
+				A9FFF4D3284A824B001A5881 /* Util */,
 			);
 			path = "zeuz-ios";
 			sourceTree = "<group>";
@@ -209,8 +212,8 @@
 			children = (
 				A9FFF4C1284A70A3001A5881 /* InputCell.swift */,
 				A9FFF4C2284A70A3001A5881 /* InputCell.xib */,
-				A9FFF4C5284A72B9001A5881 /* PhotoCell.swift */,
-				A9FFF4C6284A72B9001A5881 /* PhotoCell.xib */,
+				A9FFF4C5284A72B9001A5881 /* TextCell.swift */,
+				A9FFF4C6284A72B9001A5881 /* TextCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -221,6 +224,22 @@
 				A9FFF4CA284A7564001A5881 /* ZTableProtocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A9FFF4D3284A824B001A5881 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF4DD284A8F73001A5881 /* extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A9FFF4DD284A8F73001A5881 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFF4DE284A8F9B001A5881 /* StringExtensions.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +350,7 @@
 				A9FFF4B8284A69BF001A5881 /* ZTableVC.xib in Resources */,
 				A9FFF4C4284A70A3001A5881 /* InputCell.xib in Resources */,
 				A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */,
-				A9FFF4C8284A72B9001A5881 /* PhotoCell.xib in Resources */,
+				A9FFF4C8284A72B9001A5881 /* TextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +379,11 @@
 				A9FFF4B7284A69BF001A5881 /* ZTableVC.swift in Sources */,
 				A9FFF4CB284A7564001A5881 /* ZTableProtocols.swift in Sources */,
 				A9FFF4CF284A7AE3001A5881 /* ZTablePresenter.swift in Sources */,
-				A9FFF4C7284A72B9001A5881 /* PhotoCell.swift in Sources */,
+				A9FFF4C7284A72B9001A5881 /* TextCell.swift in Sources */,
 				A9FFF4CD284A795A001A5881 /* ZTableRouter.swift in Sources */,
 				A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */,
 				A9FFF4C3284A70A3001A5881 /* InputCell.swift in Sources */,
+				A9FFF4DF284A8F9B001A5881 /* StringExtensions.swift in Sources */,
 				A9FFF4BF284A6E9E001A5881 /* ZTableEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

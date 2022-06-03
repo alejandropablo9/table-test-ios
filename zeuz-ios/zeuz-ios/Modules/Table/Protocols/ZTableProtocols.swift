@@ -14,6 +14,10 @@ protocol ZTableViewProtocol {
 protocol ZTablePresenterProtocol {
     /// Solicita la lista de las tabla
     func requestCell()
+    /// Dirige a la vista de fotografía.
+    func showPicture()
+    /// Dirige a la vista de graficas.
+    func showGraphics()
 }
 /// Define las acciones del para la comunicación entre el presenter y el router.
 protocol ZTableRouterProtocol {

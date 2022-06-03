@@ -13,6 +13,12 @@ extension ZTablePresenter: ZTablePresenterProtocol {
     func requestCell() {
         interactor?.getCells()
     }
+    func showPicture() {
+        router?.showPicture()
+    }
+    func showGraphics() {
+        router?.showGraphics()
+    }
 }
 extension ZTablePresenter: ZTableOutputInteractor {
     func updateCells(cells: [ZTableCellEntity]) {
