@@ -5,7 +5,7 @@
 //  Created by Jesus Alejandro Pablo Ojeda on 03/06/22.
 //
 final class ZTablePresenter {
-    var interactor: ZTableInputInteractor?
+    var interactor: ZTableInputInteractorProtocol?
     var router: ZTableRouterProtocol?
     var view: ZTableViewProtocol?
 }
@@ -20,7 +20,7 @@ extension ZTablePresenter: ZTablePresenterProtocol {
         router?.showGraphics()
     }
 }
-extension ZTablePresenter: ZTableOutputInteractor {
+extension ZTablePresenter: ZTableOutputInteractorProtocol {
     func updateCells(cells: [ZTableCellEntity]) {
         view?.updateCells(cells: cells)
     }

@@ -27,13 +27,13 @@ protocol ZTableRouterProtocol {
     func showGraphics()
 }
 /// Define las acciones para la comunicación entre el interactor y el presenter.
-protocol ZTableOutputInteractor {
+protocol ZTableOutputInteractorProtocol {
     /// Delega la lista de celdas
     /// - Parameter cell: Lista de celdas
     func updateCells(cells: [ZTableCellEntity])
 }
 /// Define las acciones para la comunicación entre el presenter y el interactor.
-protocol ZTableInputInteractor {
+protocol ZTableInputInteractorProtocol {
     /// Obtiene la lista de celdas
     func getCells()
 }

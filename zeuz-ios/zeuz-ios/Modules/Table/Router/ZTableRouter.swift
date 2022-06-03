@@ -26,6 +26,7 @@ extension ZTableRouter: ZTableRouterProtocol {
         view.navigationController?.pushViewController(router.view, animated: true)
     }
     func showGraphics() {
-        print("Graphic")
+        let router = GraphicsRouter.init()
+        view.navigationController?.pushViewController(router.view, animated: true)
     }
 }

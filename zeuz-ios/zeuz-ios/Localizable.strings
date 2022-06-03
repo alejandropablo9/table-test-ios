@@ -1,0 +1,7 @@
+/* 
+  Localizable.strings
+  zeuz-ios
+  Created by Jesus Alejandro Pablo Ojeda on 03/06/22.
+*/
+// MARK: General Messages
+"errorGenericService" = "Tenemos problemas para contactar el servidor, intenta más tarde.";
