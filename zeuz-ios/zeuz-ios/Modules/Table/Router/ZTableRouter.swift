@@ -22,7 +22,10 @@ final class ZTableRouter {
 }
 extension ZTableRouter: ZTableRouterProtocol {
     func showPicture() {
+        let router = PictureRouter.init()
+        view.navigationController?.pushViewController(router.view, animated: true)
     }
     func showGraphics() {
+        print("Graphic")
     }
 }
