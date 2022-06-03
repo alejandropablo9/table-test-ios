@@ -13,7 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var navigationController: UINavigationController?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let firstView: UIViewController = ZTableVC.init()
+        /// Inicializa VIPER de la tabla
+        let router = ZTableRouter.init()
+        let firstView: UIViewController = router.view
         navigationController = UINavigationController(rootViewController: firstView)
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
