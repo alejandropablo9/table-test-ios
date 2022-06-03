@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+target 'zeuz-ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for zeuz-ios
+  pod 'Alamofire', '~> 5.2'
+  pod 'JGProgressHUD'
+  pod 'SwiftMessages'
+  target 'zeuz-iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  target 'zeuz-iosUITests' do
+    # Pods for testing
+  end
+end

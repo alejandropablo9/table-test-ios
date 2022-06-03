@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A6CFDEB0E751C7D9A2C905 /* Pods_zeuz_ios_zeuz_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0F7EDDFC77E81B81871412 /* Pods_zeuz_ios_zeuz_iosUITests.framework */; };
+		A1C28D847BF65C6E1BD3286E /* Pods_zeuz_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F544092AAEA6D6A344B220 /* Pods_zeuz_iosTests.framework */; };
 		A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF483284A68EB001A5881 /* AppDelegate.swift */; };
 		A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48C284A68EE001A5881 /* Assets.xcassets */; };
 		A9FFF490284A68EE001A5881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */; };
@@ -32,6 +34,7 @@
 		A9FFF4EF284A9ED4001A5881 /* PictureProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4EE284A9ED4001A5881 /* PictureProtocols.swift */; };
 		A9FFF4F2284A9F55001A5881 /* PicturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4F1284A9F55001A5881 /* PicturePresenter.swift */; };
 		A9FFF4F4284A9FA1001A5881 /* PictureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF4F3284A9FA1001A5881 /* PictureRouter.swift */; };
+		CC0BE0A084EC522A99A242B0 /* Pods_zeuz_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698BB9468D0E9AE130EA4BD4 /* Pods_zeuz_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15F544092AAEA6D6A344B220 /* Pods_zeuz_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zeuz_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CC68A93DA613578F0EE2C3 /* Pods-zeuz-ios-zeuz-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zeuz-ios-zeuz-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-zeuz-ios-zeuz-iosUITests/Pods-zeuz-ios-zeuz-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D79A12885B4D352B11C9214 /* Pods-zeuz-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zeuz-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-zeuz-iosTests/Pods-zeuz-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		698BB9468D0E9AE130EA4BD4 /* Pods_zeuz_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zeuz_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD5F83AE4B7D0896BAF77FA /* Pods-zeuz-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zeuz-iosTests.release.xcconfig"; path = "Target Support Files/Pods-zeuz-iosTests/Pods-zeuz-iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9FFF480284A68EB001A5881 /* zeuz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeuz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFF483284A68EB001A5881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9FFF48C284A68EE001A5881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +89,10 @@
 		A9FFF4EE284A9ED4001A5881 /* PictureProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureProtocols.swift; sourceTree = "<group>"; };
 		A9FFF4F1284A9F55001A5881 /* PicturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenter.swift; sourceTree = "<group>"; };
 		A9FFF4F3284A9FA1001A5881 /* PictureRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRouter.swift; sourceTree = "<group>"; };
+		AA432948AEE874D2FC0CA0AC /* Pods-zeuz-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zeuz-ios.debug.xcconfig"; path = "Target Support Files/Pods-zeuz-ios/Pods-zeuz-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A2B3BA214EEE9FC1D4A157 /* Pods-zeuz-ios-zeuz-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zeuz-ios-zeuz-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-zeuz-ios-zeuz-iosUITests/Pods-zeuz-ios-zeuz-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE0F7EDDFC77E81B81871412 /* Pods_zeuz_ios_zeuz_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zeuz_ios_zeuz_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98245F3B6A141586826457D /* Pods-zeuz-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zeuz-ios.release.xcconfig"; path = "Target Support Files/Pods-zeuz-ios/Pods-zeuz-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0BE0A084EC522A99A242B0 /* Pods_zeuz_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C28D847BF65C6E1BD3286E /* Pods_zeuz_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +116,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A6CFDEB0E751C7D9A2C905 /* Pods_zeuz_ios_zeuz_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262FF380B2C18538AB9E1F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698BB9468D0E9AE130EA4BD4 /* Pods_zeuz_ios.framework */,
+				EE0F7EDDFC77E81B81871412 /* Pods_zeuz_ios_zeuz_iosUITests.framework */,
+				15F544092AAEA6D6A344B220 /* Pods_zeuz_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9700291284AA49D0035F868 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A9FFF477284A68EB001A5881 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +147,8 @@
 				A9FFF499284A68EE001A5881 /* zeuz-iosTests */,
 				A9FFF4A3284A68EE001A5881 /* zeuz-iosUITests */,
 				A9FFF481284A68EB001A5881 /* Products */,
+				D5A266CE38F4BC446D27429C /* Pods */,
+				262FF380B2C18538AB9E1F25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,11 +165,12 @@
 		A9FFF482284A68EB001A5881 /* zeuz-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A9700291284AA49D0035F868 /* Data */,
+				A9FFF4B3284A69A8001A5881 /* Modules */,
 				A9FFF483284A68EB001A5881 /* AppDelegate.swift */,
 				A9FFF48C284A68EE001A5881 /* Assets.xcassets */,
 				A9FFF491284A68EE001A5881 /* Info.plist */,
 				A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */,
-				A9FFF4B3284A69A8001A5881 /* Modules */,
 				A9FFF4D3284A824B001A5881 /* Util */,
 			);
 			path = "zeuz-ios";
@@ -146,7 +181,8 @@
 			children = (
 				A9FFF49A284A68EE001A5881 /* zeuz_iosTests.swift */,
 			);
-			path = "zeuz-iosTests";
+			name = "zeuz-iosTests";
+			path = "zeuz-ios/zeuz-iosTests";
 			sourceTree = "<group>";
 		};
 		A9FFF4A3284A68EE001A5881 /* zeuz-iosUITests */ = {
@@ -161,6 +197,7 @@
 		A9FFF4B3284A69A8001A5881 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A9FFF4F5284AA187001A5881 /* Graficas */,
 				A9FFF4E0284A9A8A001A5881 /* Picture */,
 				A9FFF4B4284A69AE001A5881 /* Table */,
 			);
@@ -311,6 +348,26 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		A9FFF4F5284AA187001A5881 /* Graficas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graficas;
+			sourceTree = "<group>";
+		};
+		D5A266CE38F4BC446D27429C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA432948AEE874D2FC0CA0AC /* Pods-zeuz-ios.debug.xcconfig */,
+				F98245F3B6A141586826457D /* Pods-zeuz-ios.release.xcconfig */,
+				C9A2B3BA214EEE9FC1D4A157 /* Pods-zeuz-ios-zeuz-iosUITests.debug.xcconfig */,
+				52CC68A93DA613578F0EE2C3 /* Pods-zeuz-ios-zeuz-iosUITests.release.xcconfig */,
+				5D79A12885B4D352B11C9214 /* Pods-zeuz-iosTests.debug.xcconfig */,
+				7CD5F83AE4B7D0896BAF77FA /* Pods-zeuz-iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,9 +375,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9FFF4AA284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-ios" */;
 			buildPhases = (
+				5A3EDB4355F078895A706AAB /* [CP] Check Pods Manifest.lock */,
 				A9FFF47C284A68EB001A5881 /* Sources */,
 				A9FFF47D284A68EB001A5881 /* Frameworks */,
 				A9FFF47E284A68EB001A5881 /* Resources */,
+				8AB0B9D31D2CD6471FA89CC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9FFF4AD284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-iosTests" */;
 			buildPhases = (
+				6BB64074ABF6972C95860D09 /* [CP] Check Pods Manifest.lock */,
 				A9FFF492284A68EE001A5881 /* Sources */,
 				A9FFF493284A68EE001A5881 /* Frameworks */,
 				A9FFF494284A68EE001A5881 /* Resources */,
@@ -353,9 +413,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9FFF4B0284A68EE001A5881 /* Build configuration list for PBXNativeTarget "zeuz-iosUITests" */;
 			buildPhases = (
+				33F824A0F84DEC04A5FD9FF7 /* [CP] Check Pods Manifest.lock */,
 				A9FFF49C284A68EE001A5881 /* Sources */,
 				A9FFF49D284A68EE001A5881 /* Frameworks */,
 				A9FFF49E284A68EE001A5881 /* Resources */,
+				E7EA46CBE650B6C873D84BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -439,6 +501,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F824A0F84DEC04A5FD9FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zeuz-ios-zeuz-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3EDB4355F078895A706AAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zeuz-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB64074ABF6972C95860D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zeuz-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB0B9D31D2CD6471FA89CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zeuz-ios/Pods-zeuz-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zeuz-ios/Pods-zeuz-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zeuz-ios/Pods-zeuz-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EA46CBE650B6C873D84BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zeuz-ios-zeuz-iosUITests/Pods-zeuz-ios-zeuz-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zeuz-ios-zeuz-iosUITests/Pods-zeuz-ios-zeuz-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zeuz-ios-zeuz-iosUITests/Pods-zeuz-ios-zeuz-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9FFF47C284A68EB001A5881 /* Sources */ = {
@@ -624,6 +789,7 @@
 		};
 		A9FFF4AB284A68EE001A5881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA432948AEE874D2FC0CA0AC /* Pods-zeuz-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -638,6 +804,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,6 +820,7 @@
 		};
 		A9FFF4AC284A68EE001A5881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98245F3B6A141586826457D /* Pods-zeuz-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -667,6 +835,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -682,6 +851,7 @@
 		};
 		A9FFF4AE284A68EE001A5881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D79A12885B4D352B11C9214 /* Pods-zeuz-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -702,6 +872,7 @@
 		};
 		A9FFF4AF284A68EE001A5881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD5F83AE4B7D0896BAF77FA /* Pods-zeuz-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -722,6 +893,7 @@
 		};
 		A9FFF4B1284A68EE001A5881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A2B3BA214EEE9FC1D4A157 /* Pods-zeuz-ios-zeuz-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -740,6 +912,7 @@
 		};
 		A9FFF4B2284A68EE001A5881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CC68A93DA613578F0EE2C3 /* Pods-zeuz-ios-zeuz-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
