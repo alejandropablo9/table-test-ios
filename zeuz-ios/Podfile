@@ -7,6 +7,8 @@ target 'zeuz-ios' do
   pod 'Alamofire', '~> 5.2'
   pod 'JGProgressHUD'
   pod 'SwiftMessages'
+  pod 'FirebaseFirestore'
+  pod 'Firebase/Storage'
   target 'zeuz-iosTests' do
     inherit! :search_paths
     # Pods for testing

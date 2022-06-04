@@ -5,6 +5,7 @@
 //  Created by Jesus Alejandro Pablo Ojeda on 03/06/22.
 //
 import UIKit
+import FirebaseCore
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     /// Variable que define la pantalla principal.
@@ -19,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController = UINavigationController(rootViewController: firstView)
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
+        FirebaseApp.configure()
         return true
     }
 }

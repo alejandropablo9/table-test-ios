@@ -34,6 +34,8 @@
 		A97002CF284AC4220035F868 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97002CE284AC4220035F868 /* UIColorExtension.swift */; };
 		A9B7E773284AC9EC009C7A16 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7E772284AC9EC009C7A16 /* BaseViewController.swift */; };
 		A9B7E775284ACA6D009C7A16 /* ToastEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7E774284ACA6D009C7A16 /* ToastEnum.swift */; };
+		A9B7E777284AD5AE009C7A16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9B7E776284AD5AE009C7A16 /* GoogleService-Info.plist */; };
+		A9B7E77A284AD86F009C7A16 /* PictureInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7E779284AD86F009C7A16 /* PictureInteractor.swift */; };
 		A9FFF484284A68EB001A5881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF483284A68EB001A5881 /* AppDelegate.swift */; };
 		A9FFF48D284A68EE001A5881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48C284A68EE001A5881 /* Assets.xcassets */; };
 		A9FFF490284A68EE001A5881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */; };
@@ -110,6 +112,8 @@
 		A97002CE284AC4220035F868 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		A9B7E772284AC9EC009C7A16 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A9B7E774284ACA6D009C7A16 /* ToastEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastEnum.swift; sourceTree = "<group>"; };
+		A9B7E776284AD5AE009C7A16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9B7E779284AD86F009C7A16 /* PictureInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInteractor.swift; sourceTree = "<group>"; };
 		A9FFF480284A68EB001A5881 /* zeuz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeuz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFF483284A68EB001A5881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9FFF48C284A68EE001A5881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -307,6 +311,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		A9B7E778284AD847009C7A16 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7E779284AD86F009C7A16 /* PictureInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		A9FFF477284A68EB001A5881 = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +350,7 @@
 				A9FFF483284A68EB001A5881 /* AppDelegate.swift */,
 				A9FFF48C284A68EE001A5881 /* Assets.xcassets */,
 				A9FFF491284A68EE001A5881 /* Info.plist */,
+				A9B7E776284AD5AE009C7A16 /* GoogleService-Info.plist */,
 				A9FFF48E284A68EE001A5881 /* LaunchScreen.storyboard */,
 				A970029F284AA8D50035F868 /* Localizable.strings */,
 			);
@@ -472,6 +485,7 @@
 		A9FFF4E0284A9A8A001A5881 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				A9B7E778284AD847009C7A16 /* Interactor */,
 				A9FFF4F0284A9F2E001A5881 /* Presenter */,
 				A9FFF4EB284A9E29001A5881 /* Protocols */,
 				A9FFF4EA284A9E22001A5881 /* Router */,
@@ -661,6 +675,7 @@
 				A97002A5284AA9D90035F868 /* GraphicsVC.xib in Resources */,
 				A9FFF4B8284A69BF001A5881 /* ZTableVC.xib in Resources */,
 				A9FFF4C4284A70A3001A5881 /* InputCell.xib in Resources */,
+				A9B7E777284AD5AE009C7A16 /* GoogleService-Info.plist in Resources */,
 				A97002A0284AA8D50035F868 /* Localizable.strings in Resources */,
 				A9FFF4E5284A9AE7001A5881 /* PictureVC.xib in Resources */,
 				A97002C5284ABF070035F868 /* RowViewCell.xib in Resources */,
@@ -806,6 +821,7 @@
 				A9FFF4CF284A7AE3001A5881 /* ZTablePresenter.swift in Sources */,
 				A9700298284AA61D0035F868 /* BaseFacade.swift in Sources */,
 				A9700294284AA5D50035F868 /* RequestSettings.swift in Sources */,
+				A9B7E77A284AD86F009C7A16 /* PictureInteractor.swift in Sources */,
 				A97002CC284AC1080035F868 /* PieCharViewCell.swift in Sources */,
 				A970029E284AA8320035F868 /* Logger.swift in Sources */,
 				A9B7E775284ACA6D009C7A16 /* ToastEnum.swift in Sources */,
